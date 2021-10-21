@@ -2,32 +2,22 @@ HOW TO INSTALL THE NEXTION DRIVER
 
 log in to your Pi-Star with SSH
 
-Then: cd /tmp
+RPI-RW
+
+
+
+sudo rm /usr/lcoal/bin/NextionDriver
 
 get the software
+Then: cd /tmp
 
 git clone https://github.com/on7lds/NextionDriverInstaller.git
 
 go !
 
 sudo NextionDriverInstaller/install.sh
+
 Checking the installing (on Pi-Star)
-
-log in to your Pi-Star with SSH
-
-go to the /tmp directory
-
-cd /tmp
-
-get the software
-
-git clone https://github.com/on7lds/NextionDriverInstaller.git
-
-NOTE: if you get an error that the destination path exists, you already downloaded the software. The just ho to the next step.
-
-go !
-
-sudo NextionDriverInstaller/check_installation.sh
 
 You will notice that in the MMDVMHost beyond the Nextion part of that page, there are some additions regarding this Nextion Interface:
 Check your software settings in Pi-Star:
