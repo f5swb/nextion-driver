@@ -1,12 +1,14 @@
 HOW TO INSTALL THE NEXTION DRIVER
 
+First install the Nextion driver from ON7LDS L3 HS
+
 log in to your Pi-Star with SSH
 
 RPI-RW
 
 
 
-sudo rm /usr/lcoal/bin/NextionDriver
+sudo rm /usr/local/bin/NextionDriver to erase the old driver
 
 get the software
 Then: cd /tmp
